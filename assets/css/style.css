@@ -1,0 +1,724 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+
+/* header logo */
+
+.header-logo {
+    width: 70px;
+    position: absolute;
+    top: 15px;
+    left: 49px;
+    z-index: 99;
+}
+
+.hero-img-1 {
+    /* height: 657px; */
+    height: 100vh;
+    position: relative;
+    transform: scaleX(-1);
+    background-size: cover;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-image: url("../images/bg1.2a87ceef.png");
+}
+
+.hero-img-1:after {
+    content: "";
+    left: 0;
+    width: 100%;
+    opacity: 0.7;
+    height: 100vh;
+    /* height: 657px; */
+    position: absolute;
+    background-image: linear-gradient(to right, #000000 70%, #2c2b2b);
+}
+
+.content-div {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+
+.content-div p {
+    max-width: 450px;
+    margin: 26px auto 47px auto;
+}
+
+.pre-text {
+    color: white;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: "Segoe UI";
+}
+
+
+/* header form code start */
+
+.header-form {
+    padding: 35px;
+    max-width: 580px;
+    margin: 0px auto;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.label-text {
+    /*font-family: 'Montserrat';*/
+    font-size: 14px;
+    line-height: 17px;
+    color: #343a40;
+}
+
+.header-input {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 7.5px;
+    height: 45px;
+}
+
+.header-confirm-btn {
+    border-radius: 8px;
+    height: 45px;
+    font-size: 14px;
+    background-color: #000;
+}
+
+.header-first-title {
+    color: white;
+    font-family: "Segoe UI";
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 0.2px;
+    line-height: 36px;
+}
+
+
+/* header form code over */
+
+
+/* second section img css start */
+
+.hero-img-2 {
+    /* height: 657px; */
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-image: url("../images/bg2.aa2c4907.png");
+}
+
+
+/* second section img css over */
+
+
+/* second section content css start */
+
+.second_content {
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+.second_title {
+    color: white;
+    font-family: "Segoe UI";
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: 0.2px;
+    line-height: 26px;
+}
+
+.second_title~.pre-text {
+    max-width: 480px;
+    margin: 16px 0px 40px 0px;
+}
+
+.card-desk {
+    position: relative;
+}
+
+.card-desk:before {
+    content: "";
+    width: 91px;
+    background-image: url("../images/points.1b513195.png");
+    background-size: cover;
+    height: 87.5px;
+    position: absolute;
+    left: -25px;
+    bottom: -23px;
+    z-index: 1;
+}
+
+.card-desk:after {
+    content: "";
+    width: 91px;
+    background-image: url("../images/points.1b513195 (1).png");
+    background-size: cover;
+    height: 87.5px;
+    position: absolute;
+    right: -23px;
+    top: -35px;
+    z-index: 1;
+}
+
+.card-details {
+    height: 100%;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    background-color: rgba(48, 48, 48, 0.6);
+}
+
+.card-details img {
+    width: 20%;
+}
+
+.details-title {
+    font-weight: 700;
+    color: #c49c48;
+    font-size: 18px;
+    font-family: "Segoe UI";
+}
+
+.details-text {
+    color: white;
+    font-size: 15px;
+    padding: 0px 16px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Segoe UI";
+}
+
+
+/* second section content css over */
+
+
+/* third section css start */
+
+.hero-img-3 {
+    /* height: 657px; */
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: left top 25%;
+    background-image: url("../images/bg3.e29587af.png");
+}
+
+.third_content {
+    position: absolute;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.resultats-title {
+    color: white;
+    font-family: "Segoe UI";
+    font-weight: 800;
+    max-width: 450px;
+    font-size: 22px;
+    letter-spacing: 0.2px;
+    line-height: 23px;
+}
+
+.resultats-text {
+    font-family: "Segoe UI";
+    font-weight: 600;
+    color: white;
+    opacity: 0.5;
+    font-size: 16px;
+    max-width: 400px;
+    letter-spacing: 0.2px;
+}
+
+.result-card {
+    background-image: linear-gradient(170deg, #c49c48, #cda738);
+    color: #fff;
+    height: 210px;
+    border-radius: 12.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-card p {
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+.result-card .number {
+    /*font-family: 'Montserrat';*/
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.little-card {
+    background-color: rgba(20, 20, 20, 0.7);
+    border-radius: 12.5px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.little-card p {
+    color: #fff;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    max-width: 110px;
+    text-align: center;
+}
+
+.little-card .number {
+    color: #c49c48;
+    /*font-family: "Montserrat";*/
+    font-weight: 900;
+    line-height: 30px;
+}
+
+
+/* third section css over */
+
+
+/* four section css start */
+
+.hero-img-4 {
+    /* height: 657px; */
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: left top 25%;
+    background-image: url("../images/bg4.bd4283a4.png");
+}
+
+.four_content {
+    position: absolute;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.confiance-text {
+    color: #c49c48;
+}
+
+.arrow {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.toLeftArrow {
+    transform: rotate(180deg);
+}
+
+.arrow img {
+    height: 16.5px;
+    cursor: pointer;
+}
+
+.avis-card {
+    margin-top: 50px;
+    background-color: rgba(39, 39, 39, 0.87);
+    border-radius: 12.5px;
+    padding: 20px 25px;
+}
+
+.profile-img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.profile-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.profile-text:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/verify.59238edd.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.profile-pre-text {
+    font-family: Poppins;
+    font-size: 9px;
+    color: #a6a6a6;
+}
+
+.star-img {
+    width: 91.5px;
+    height: 21px;
+    object-fit: cover;
+}
+
+.comment-text {
+    margin-top: 15px;
+    color: white;
+    font-family: Segoe UI;
+    font-size: 14px;
+    line-height: 15px;
+    opacity: 0.75;
+}
+
+.see_more_btn {
+    background-color: transparent;
+    border: solid 1px #c49c48;
+    color: #c49c48;
+    font-family: "Segoe UI";
+    font-size: 8px;
+    letter-spacing: 3px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 34px;
+    border-radius: 7.5px;
+}
+
+.see_more_btn img {
+    width: 4.5px;
+}
+
+.see--more {
+    width: 100%;
+    height: 10px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.see--more:before {
+    content: "";
+    display: inline-block;
+    width: 4.5px;
+    height: 7.5px;
+    background-image: url("../images/little-right-arrow.c2bb18a3.png");
+    background-size: cover;
+}
+
+.see--more--bar {
+    background-color: rgba(148, 148, 148, 0.2);
+    width: 100%;
+    height: 1px;
+    margin-left: 13px;
+}
+
+#see--more--size {
+    height: 1px;
+    background-color: #c49c48;
+    width: 20%;
+    transition: 0.3s;
+}
+
+
+/* four section css over */
+
+
+/* five section css start */
+
+.hero-img-5 {
+    /* height: 657px; */
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-image: url("../images/bg5.18a853e4.png");
+}
+
+.footer-pre-title {
+    /*font-family: Montserrat;*/
+    font-size: 14px;
+    color: #c49c48;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 12.5px !important;
+    margin-bottom: 33px !important;
+    opacity: 1;
+    max-width: 350px !important;
+    letter-spacing: 0.2px;
+}
+
+.under-form-text {
+    font-family: Segoe UI;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    max-width: 700px;
+    margin-top: 35px;
+}
+
+.copyright-text {
+    bottom: 15px;
+    color: white;
+    opacity: 0.25;
+    font-family: "Montserrat";
+    font-size: 7px;
+}
+
+.footer-title {
+    color: white;
+    font-family: "Segoe UI";
+    font-weight: 800;
+    max-width: 550px;
+    font-size: 22px;
+    letter-spacing: 0.2px;
+    line-height: 23px;
+}
+
+.footer-btn {
+    background-color: black;
+    color: white;
+    /*font-family: 'Montserrat';*/
+    font-size: 9px;
+    letter-spacing: 0.5px;
+    border: none;
+    width: 100%;
+    border: none;
+    height: 34px;
+    margin-top: 17.5px;
+    border-radius: 7.5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+/* five section css over */
+
+
+/* media query moblie screen css code start */
+
+@media only screen and (min-width: 319px) and (max-width: 766px) {
+    .header-logo {
+        left: 24px;
+    }
+    .hero-img-1 {
+        height: 800px;
+        background-position: center;
+    }
+    .hero-img-1:after {
+        content: "";
+        height: 800px;
+    }
+    .content-div {
+        padding: 0px 22px;
+        padding-top: 20%;
+    }
+    .content-div h1 {
+        font-size: 1.4em;
+        padding: 0px 20px;
+        font-weight: 600 !important;
+    }
+    .content-div .pre-text {
+        font-size: 16px;
+        font-weight: 400;
+        opacity: 1;
+    }
+    /* second section css */
+    .hero-img-2 {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+    .second_content {
+        position: relative;
+        padding-bottom: 60px;
+    }
+    .second_title {
+        font-size: 1.5em;
+        font-weight: 600 !important;
+    }
+    .second_title~.pre-text {
+        font-size: 16px;
+        font-weight: 400;
+        opacity: 1;
+    }
+    .card-desk:after {
+        right: -7px;
+    }
+}
+
+
+/* media query moblie screen css code over */
+
+
+/* iPad Screen 768 */
+
+@media only screen and (min-width: 767px) and (max-width: 769px) {
+    .header-logo {
+        left: 24px;
+    }
+    .content-div h1 {
+        font-size: 1.4em;
+        padding: 0px 20px;
+        font-weight: 600 !important;
+    }
+    .content-div .pre-text {
+        font-size: 16px;
+        font-weight: 400;
+        opacity: 1;
+    }
+    .header-form {
+        max-width: 423px;
+    }
+    .header-input {
+        height: 34px;
+    }
+    .header-confirm-btn {
+        height: 34px;
+    }
+    .hero-img-2 {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+    .second_content {
+        position: relative;
+        padding-bottom: 60px;
+    }
+    .second_title {
+        font-size: 1.4rem;
+    }
+    .pre-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (min-width: 1439px) {
+    .avis-card {
+        margin-bottom: 60px;
+    }
+    .content-container {
+        left: 50%;
+        transform: translate(-50%, 0%);
+        max-width: 1510px;
+    }
+}
+
+
+/* page details */
+
+.page--details {
+    position: fixed;
+    z-index: 15;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 25px;
+}
+
+.page--details--item {
+    font-family: "Sen";
+    font-size: 12.5px;
+    color: white;
+    opacity: 0.1;
+    font-size: 8px;
+    text-decoration: none;
+}
+
+.page-item__is_active {
+    font-size: 12.5px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.page-item__is_second {
+    font-size: 10px;
+    opacity: 0.3;
+}
+
+.page-item__is_active:after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-image: url(https://crypto-house.fr/elipse.cdbd78be.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.fake--scrollbar {
+    position: fixed;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.5px;
+    height: 150px;
+    background-color: #848484;
+    z-index: 10;
+}
+
+.fake--scrollbar--bar {
+    position: relative;
+    width: 3px;
+    height: 20%;
+    background-color: #929292;
+    margin-left: -1px;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    .page--details,
+    .fake--scrollbar,
+    .arrow,
+    .see--more {
+        display: none !important;
+    }
+}
+
+.faded-out {
+    opacity: 0;
+}
+
+.faded-in {
+    opacity: 1 !important;
+    transition: opacity 0.3s;
+}
